@@ -1,0 +1,29 @@
+<html>
+<head>
+    <h1>CSS Update Page</h1>
+</head>
+
+<style>
+    #text {
+        color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+</style>
+
+<body>
+    <div id="text">
+        This is the text that will be altered
+    </div>
+
+    <script src="functions.js"></script>
+    Text Color R(0-255): <input type="text" id="text_R" value=""> <br>
+    Text Color G(0-255): <input type="text" id="text_G" value=""> <br>
+    Text Color B(0-255): <input type="text" id="text_B" value=""> <br>
+    Border Width: <input type="text" id="border_width" value=""> <br>
+    <button onclick="updateText()"> Change the text</button> <br>
+
+
+
+</body>
+</html>
